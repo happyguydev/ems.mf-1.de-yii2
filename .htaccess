@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
+
+RewriteCond $1 !^(index\.php|resources|robots\.txt|static) [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/?$1 [L,QSA]

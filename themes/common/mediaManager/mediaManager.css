@@ -1,0 +1,246 @@
+.view-details td {
+    font-size: 16px;
+    color: grey;
+    line-height: 2.1;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.copy-url {
+    font-size: 12px;/* width:300px;*/
+}
+
+#insert-button {
+    position: absolute;
+    right: 65px;
+    top: -52px;
+}
+
+#back-button {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+#place-btn {
+    position: absolute;
+    right: 393px;
+    top: -55px;
+}
+
+#cancel-place-btn {
+    position: absolute;
+    right: 313px;
+    top: -55px;
+}
+
+.search-input-box {
+    position: absolute;
+    top: -54px;
+    right: 92px;
+}
+
+#search-inpt {
+    width: 200px;
+}
+.simple-pagination {
+    margin-top: 30px;
+}
+
+.simple-pagination ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.simple-pagination li a, .simple-pagination li span {
+    color: #337ab7;
+    padding: 9px 13px;
+    text-decoration: none;
+    border: 2px solid #337ab7;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 20px;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    border-radius: 5px;
+}
+
+.simple-pagination .prev.current, .simple-pagination .next.current {
+    background: #fff;
+    border-color: #337ab7;
+    color: #666;
+    cursor: no-drop;
+    opacity: 0.6;
+    font-size: 14px;
+}
+.simple-pagination .next , .simple-pagination .prev {
+    font-size: 14px !important;
+}
+
+.upload-image {
+    position: absolute !important;
+    right: 45px;
+    top: -54px;
+    cursor: pointer;
+}
+
+label[for="upload-file"] {
+    font-weight: normal !important;
+    cursor: pointer;
+}
+
+.folder-div {
+    display: inline-block;
+    padding: 5px;
+    height: 180px;
+}
+
+.image-div {
+    display: inline-block;
+    padding: 5px;
+    height: 180px;
+}
+
+/*.fa-plus
+{
+height: 33px;
+font-size: 20px;
+width: 32px;
+padding-right: 25px;
+}*/
+#progress-bar {
+    background-color: #12CC1A;
+    height: 20px;
+    color: #FFFFFF;
+    width: 0%;
+    -webkit-transition: width .3s;
+    -moz-transition: width .3s;
+    transition: width .3s;
+}
+
+#progress-div {
+    border: #0FA015 1px solid;
+    padding: 5px 0px;
+    margin: 30px 0px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#target-layer {
+    width: 100%;
+    text-align: center;
+}
+
+.folder-dd {
+    position: absolute;
+    font-size: 22px;
+    top: -30px;
+    right: 0px;
+    text-decoration: none !important;
+    color: grey !important;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.gallery-dd {
+    position: absolute;
+    font-size: 22px;
+    top: -34px;
+    right: -8px;
+    text-decoration: none !important;
+    color: grey !important;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+img.zoom {
+    width: 175px;
+    height: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.detail-0, .detail-1, .detail-2, .detail-3, .detail-4, .detail-5, .detail-6 {
+    font-weight: bold;
+}
+
+.title, .file-name, .file-type, .caption, .alternate-text, .create-date {
+    font-style: italic;
+}
+
+#copy-btn {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.text {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.folder-icon {
+    font-size: 175px;
+}
+
+.text-style {
+    color: grey;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.txt-img {
+    margin-top: 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-style-move {
+    color: grey;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* .drop-btn {
+    visibility: hidden;
+}
+
+.folder-div:hover .drop-btn {
+    visibility: visible;
+}
+
+.image-div:hover .drop-btn {
+    visibility: visible;
+} */
+.dropdown-menu{
+    display: none;;
+}
+
+.bg-roup {
+    position: absolute;
+    right:15px;
+    top: 50px;
+}
+.view-details {
+    box-shadow: -10px 30px 30px 10px #333;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+}

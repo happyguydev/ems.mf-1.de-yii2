@@ -1,0 +1,1 @@
+<iframe src="<?=Yii::getAlias('@web')?>/mailbox/inbox/read-folder?act=<?=$act?>" style="display: none;width:0px;height:0px"></iframe>

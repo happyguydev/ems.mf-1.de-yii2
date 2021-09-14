@@ -1,0 +1,146 @@
+.thm-body{
+    background-color:#f1f5f8 !important;
+  }
+  .thm-message-list-top-toolbar, .thm-message-list-bottom-toolbar{
+    background: #fff !important;
+      border: 0px !important;
+      box-shadow: 0px 10px 30px -10px #333;
+  }
+  
+  body:before{
+    display: none;
+  }
+  .b-folders .b-footer{
+/* top:10px;
+left: 150px;
+bottom: auto; */
+height:auto !important;
+  }
+.b-folders .b-content{
+bottom: 0px  !important;
+}
+.nano  .g-scrollbox{
+/* right: 0px  !important;
+bottom: 0px !important; */
+}
+
+.inputSearch {
+    border-color: transparent;
+    border-radius: .375rem !important;
+    position: relative !important;
+
+    box-shadow: 0 3px 20px rgb(0 0 0 / 4%) !important;
+    background-color: rgba(255,255,255,1) !important;
+    padding: .5rem .75rem !important;
+
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    --tw-ring-offset-shadow: 0 0 transparent !important;
+    --tw-shadow: 0 1px 2px 0 rgba(0,0,0,0.05) !important;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow) !important;
+    width: 100% !important;
+    margin-top: -4px;
+}
+.btn{
+    -webkit-font-smoothing: antialiased;
+
+    --tw-ring-offset-shadow: 0 0 transparent !important;
+    --tw-shadow: 0 1px 2px 0 rgba(0,0,0,0.05) !important;
+    border-radius: .375rem !important;
+    border-width: 1px !important;
+    cursor: pointer !important;
+  
+   
+    font-weight: 500 !important;
+    padding: .5rem .75rem !important;
+    --tw-shadow: 0 1px 2px 0 rgba(0,0,0,0.05) !important;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow) !important;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform !important;
+    transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+    transition-duration: .15s !important;
+    transition-duration: .2s !important;
+}
+.btn-success{
+    background-color: rgb(7 26 80)  !important;
+}
+.messageList .b-message-list-wrapper {
+    border:0px solid!important;
+    top:58px;
+    left: 30px;
+}
+#rl-loading-desc{
+    display: none !important;
+}
+
+.messageList .b-content .messageListItem.e-single-line {
+    height: auto!important;
+}
+
+.messageList .b-content .messageListItem.e-single-line .wrapper {
+    padding: .75rem 1.25rem !important;
+    line-height: 40px !important;
+}
+.sender,.subject-suffix,.date {
+        font-size: .875rem !important;
+    line-height: 1.25rem !important;
+    font-size:14px;
+    color:#4A5568;
+    overflow-x: hidden !important;
+    padding: .75rem 2rem !important;
+}
+.messageList .b-content .messageListItem.unseen .sidebarParent{
+    padding: 10px 0px;
+    display: none !important;
+}
+.messageList .b-content .messageListItem .sidebarParent{
+    display: none !important;
+}
+.messageList .b-content .messageListItem{
+    background-color: #fff  !important;
+}
+.messageList .b-content .messageListItem.unseen{
+    background-color: #f9f9f9  !important;
+}
+.nano {
+    border-radius: 10px;
+}
+.b-folder-system-item {
+    width: 100%;
+}
+.ui-droppable .selectable {
+    padding:5px;
+}
+
+.b-folders .b-content .e-item .e-link.selectable{
+    padding:6px!important;
+}
+.messageList .second-toolbar{
+    box-shadow:  0px 0px 5px -4px;
+    padding-left: 30px;
+}
+.b-folders .b-content .e-item .e-link.selectable.droppableHover,
+ .b-folders .b-content .e-item .e-link.selectable.focused,
+  .b-folders .b-content .e-item .e-link.selectable.selected,
+   .b-folders .b-content .e-item .e-link.selectable:hover {
+        --tw-bg-opacity: 1;
+    background-color: rgb(20 46 113)!important;
+  
+}
+
+#rl-loading, #rl-loading-error{
+	color:#999 !important;
+}
+
+.progressjs-container{
+    display: none !important;;
+}
+html.rl-no-preview-pane .messageView .b-content{
+    left:30px !important;
+}
+html.rl-no-preview-pane .messageView .toolbar{
+    left:30px !important;
+}
+.cke_top{
+    display: none;
+}
